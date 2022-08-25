@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    tools:context=".HowToUse">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fullDescript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="40px"
+                android:layout_marginRight="40px"
+                android:letterSpacing=".04"
+                android:lineSpacingExtra="4dp"
+                android:text="How to Use:\n\nFirst, enter the exact url of the file you want to download (such as 'https://google.com/index.html'). Any kind of file can be downloaded such as images and MP3s. Next, enter the file name you want to want it to be named (such as 'google_index_file.html'). The file name must include the file extension, or you may not be able to open your file properly.\n\nFinally you can click 'DOWNLOAD'. If the file is downloaded successfully, the app will let you know.\n\nYou can go into the menu and click 'Download History' to see a list of the files you downloaded.\n\n\n"
+                android:textColor="#000000"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
